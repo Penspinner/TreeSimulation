@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F3017ADF1CB03A5B003EB19F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F3017ADE1CB03A5B003EB19F /* main.cpp */; };
+		F3017AE61CB03C24003EB19F /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3017AE51CB03C24003EB19F /* GLUT.framework */; };
+		F3017AE81CB03C29003EB19F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3017AE71CB03C29003EB19F /* OpenGL.framework */; };
+		F36348591CD820D4008278B1 /* lodepng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F36348541CD820D4008278B1 /* lodepng.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,21 @@
 /* Begin PBXFileReference section */
 		F3017ADB1CB03A5B003EB19F /* TreeSimulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TreeSimulation; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3017ADE1CB03A5B003EB19F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F3017AE51CB03C24003EB19F /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		F3017AE71CB03C29003EB19F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F3017AE91CB03C6A003EB19F /* main.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = main.hpp; sourceTree = "<group>"; };
+		F30B38E31CDFFD4000FF1E58 /* tree1red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree1red.png; sourceTree = "<group>"; };
+		F30B38E41CDFFD4000FF1E58 /* tree2red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree2red.png; sourceTree = "<group>"; };
+		F30B390B1CE170FD00FF1E58 /* tree4red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree4red.png; sourceTree = "<group>"; };
+		F36348541CD820D4008278B1 /* lodepng.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lodepng.cpp; sourceTree = "<group>"; };
+		F36348551CD820D4008278B1 /* lodepng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lodepng.h; sourceTree = "<group>"; };
+		F36348561CD820D4008278B1 /* tree1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree1.png; sourceTree = "<group>"; };
+		F36348571CD820D4008278B1 /* tree2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree2.png; sourceTree = "<group>"; };
+		F36348581CD820D4008278B1 /* tree3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree3.png; sourceTree = "<group>"; };
+		F3C5A77E1CB311C700DDEF6F /* tree116.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = tree116.bmp; sourceTree = "<group>"; };
+		F3C5A77F1CB311C700DDEF6F /* tree124.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = tree124.bmp; sourceTree = "<group>"; };
+		F3C5A7801CB311C700DDEF6F /* tree216.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = tree216.bmp; sourceTree = "<group>"; };
+		F3C5A7811CB311C700DDEF6F /* tree224.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = tree224.bmp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3017AE81CB03C29003EB19F /* OpenGL.framework in Frameworks */,
+				F3017AE61CB03C24003EB19F /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +61,8 @@
 		F3017AD21CB03A5B003EB19F = {
 			isa = PBXGroup;
 			children = (
+				F3017AE71CB03C29003EB19F /* OpenGL.framework */,
+				F3017AE51CB03C24003EB19F /* GLUT.framework */,
 				F3017ADD1CB03A5B003EB19F /* TreeSimulation */,
 				F3017ADC1CB03A5B003EB19F /* Products */,
 			);
@@ -57,7 +79,20 @@
 		F3017ADD1CB03A5B003EB19F /* TreeSimulation */ = {
 			isa = PBXGroup;
 			children = (
+				F30B390B1CE170FD00FF1E58 /* tree4red.png */,
+				F30B38E31CDFFD4000FF1E58 /* tree1red.png */,
+				F30B38E41CDFFD4000FF1E58 /* tree2red.png */,
+				F36348541CD820D4008278B1 /* lodepng.cpp */,
+				F36348551CD820D4008278B1 /* lodepng.h */,
+				F36348561CD820D4008278B1 /* tree1.png */,
+				F36348571CD820D4008278B1 /* tree2.png */,
+				F36348581CD820D4008278B1 /* tree3.png */,
+				F3C5A77E1CB311C700DDEF6F /* tree116.bmp */,
+				F3C5A77F1CB311C700DDEF6F /* tree124.bmp */,
+				F3C5A7801CB311C700DDEF6F /* tree216.bmp */,
+				F3C5A7811CB311C700DDEF6F /* tree224.bmp */,
 				F3017ADE1CB03A5B003EB19F /* main.cpp */,
+				F3017AE91CB03C6A003EB19F /* main.hpp */,
 			);
 			path = TreeSimulation;
 			sourceTree = "<group>";
@@ -118,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F36348591CD820D4008278B1 /* lodepng.cpp in Sources */,
 				F3017ADF1CB03A5B003EB19F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +245,7 @@
 		F3017AE31CB03A5B003EB19F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -216,6 +253,7 @@
 		F3017AE41CB03A5B003EB19F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -239,6 +277,7 @@
 				F3017AE41CB03A5B003EB19F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
